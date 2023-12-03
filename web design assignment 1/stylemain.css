@@ -1,0 +1,64 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+    background: url(background.png);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+h1{
+    text-align: center;
+    color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+h1:hover{
+    transform: scale(1.2) translate(10px);
+    transition: 0.4s;
+}
+h2{
+    text-align: center;
+    color:aliceblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+h3{
+    text-align: right;
+    color:aquamarine;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24px;  
+}
+p{
+    text-align:justify;
+    color:aliceblue;
+    font-family: cursive;
+    font-size: 14px;
+}
+.first-class{
+    color:aquamarine;
+    font-size:20px;
+	font-style: italic;
+}
+.second-class{
+    color:aqua;
+    font-size: 24px;
+    font-weight: bold;
+}
+table{
+    color:aliceblue;
+}
+.third-class{
+    color:aliceblue;
+    font-size: 20px;
+}
+a{
+    color:bisque;
+}
+img.first-class:hover{
+    transform: scale(1.2) translate(10px);
+    transition: 0.4s;
+}
+img{
+    width: 200px;
+    height: 180px;
+}
